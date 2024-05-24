@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repeat Text Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Repeat Text</h1>
+    <div class="input-group">
+        <label for="text">Text:</label>
+        <input type="text" id="text" placeholder="your text here">
+    </div>
+    <div class="input-group">
+        <label for="repeat">Repeat Time:</label>
+        <input type="number" id="repeat">
+    </div>
+    <div class="checkbox-group">
+        <input type="checkbox" id="emptySpace">
+        <label for="emptySpace">Empty Space</label>
+        <input type="checkbox" id="newLine" checked>
+        <label for="newLine">New Line</label>
+    </div>
+    <div class="output" id="output"></div>
+    <div class="button-group">
+        <button onclick="repeatText()">Repeat</button>
+        <button onclick="copyText()">Copy</button>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 Tegar Sabila. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
